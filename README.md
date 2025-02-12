@@ -1,6 +1,6 @@
 # PointCloud_Prep
 This repository is mainly for creating training data for the modified PointStack repository below:
-LINK!!!
+https://github.com/tedtheturtlenz/PointStack
 
 The point clouds that these scripts are used on have been Bonsai Trees with about ~1mil points. But theoretically could work on any object point cloud.
 
@@ -14,6 +14,7 @@ in a text file. E.g. one line of the text file would look like:
 I found it easiest to use CloudCompare to segment and label the point clouds. I used the segment tool to create the seperate point clouds, e.g. one for trunk, one for pot, one for leaf. Then use the Scalar Field tool to add a constant SF to each cloud as a label. Then exported as a .txt file.
 
 This repository expects the following directory setup:
+"
 D:/
   |-- Bonsai
         |-- Code
@@ -31,7 +32,7 @@ D:/
                             |-- Segmented-Meshes
 
 But by editing the references in the code these can be adjusted.
-
+"
 
 # Scripts
 The key scripts are:

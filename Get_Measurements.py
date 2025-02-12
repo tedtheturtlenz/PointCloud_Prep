@@ -14,7 +14,7 @@ out_dict = ms.get_geometric_measures()
 
 # get the surface area
 surf_area = out_dict['surface_area']
-print(surf_area)
+print(f"Leaf Surface Area : {surf_area} m2")
 
 
 #Processing Trunk
@@ -26,3 +26,4 @@ ms.save_current_mesh('D:\Bonsai\Code\PythonDev\PointCloud_Prep\Segmented_Meshes\
 out_dict = ms.get_geometric_measures()
 # get the mesh volume
 mesh_volume = out_dict['mesh_volume']
+print(f"Trunk Volume: {mesh_volume} m3")
