@@ -1,6 +1,6 @@
 # PointCloud_Prep
 This repository is mainly for creating training data for the modified PointStack repository below:
-https://github.com/tedtheturtlenz/PointStack
+https://github.com/tedtheturtlenz/PointStack. This repo is also used with https://github.com/tedtheturtlenz/Scanning to capture the data (optional).
 
 The point clouds that these scripts are used on have been Bonsai Trees with about ~1mil points. But theoretically could work on any object point cloud.
 
