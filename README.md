@@ -1,4 +1,5 @@
-# This repository is mainly for creating training data for the modified PointStack repository below:
+# PointCloud_Prep
+This repository is mainly for creating training data for the modified PointStack repository below:
 LINK!!!
 
 The point clouds that these scripts are used on have been Bonsai Trees with about ~1mil points. But theoretically could work on any object point cloud.
